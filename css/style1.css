@@ -1,0 +1,125 @@
+body {
+	color: #0d0318;
+	font-family: 'Delius', cursive;
+	font-size: 0.9em;
+	font-weight: 300;
+	line-height: 0.8;
+	margin: 0;
+}
+.container { /* form */
+	margin-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+}
+.sweepstakes {
+	background: rgba(0, 0, 0, 0.2);
+    color: #ff99f6;
+		padding: 18px;
+		border-radius: 6px;
+}
+
+h1 {
+	font-weight: 400;
+	margin: 0;
+}
+.form-container {
+	padding-top: 5px;
+}
+.form-section {
+	margin-bottom: 5px;
+	width: auto;
+}
+.to-label {
+	margin-top: 20px;
+}
+label {
+	display: block;
+	margin-right: 2%;
+	margin-bottom: 0.25em;
+}
+input,
+select {
+	color: #404040;
+	font-size: 1em;
+	font-weight: 300;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+	width: 95%;
+}
+input:focus {
+	background: #fffaf2;
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0, 0.1);
+	box-shadow: inset 1px 1px 1px rgba(0,0,0, 0.1);
+	outline: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+	border: solid 1px #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	line-height: 1.6;
+	padding: 0.1em 0.5em;
+	-webkit-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+select:focus {
+	outline: none;
+}
+button, input[type="submit"] {
+	background: none;
+	background-color: #5ca51c;
+	border: solid 1px #4e8917;
+	border-bottom-width: 4px;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-size: 1em;
+	font-weight: 300;
+	font-family: 'Delius', cursive;
+	margin-top: 8px;
+	outline: none;
+	padding: 5px 20px;
+	-webkit-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #4e8917;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #4e8917;
+}
+@media only screen and (min-width: 600px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	label {
+		display: inline-block;
+		text-align: right;
+		width: 20%;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"] {
+		width: 60%;
+	}
+	.to-label {
+		display: inline-block;
+		margin-top: 0;
+		margin-left: 25px;
+		width: auto;
+	}
+	input[type="submit"] {
+		margin-left: 22.5%;
+	}
+}

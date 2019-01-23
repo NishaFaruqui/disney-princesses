@@ -1,0 +1,153 @@
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+html, body {
+	margin: 0;
+}
+html {
+	font-size: 14px;
+}
+body {
+	background-color: #f6b0fb; /* background color of page */
+	background-image: url("http://4.bp.blogspot.com/-BOf4JaZ3chI/TY-U5M5TbAI/AAAAAAAABoY/lgi2Hwb0NEo/s1600/EKD+Gradient+Art+Background+for+Tutorial.jpg");
+	background-size: cover;
+}
+* {
+	cursor: url(http://cur.cursors-4u.net/toons/too-9/too914.ani), url(http://cur.cursors-4u.net/toons/too-9/too914.png), auto !important;
+}
+h1, h2 {
+	margin-top: 0;
+	color: #fff;
+}
+h1 { /*headings for inspo, about, create sticker, enter*/
+	font-size: 4.2rem;
+	line-height: 1.1;
+	margin-bottom: 0.67rem;
+	font-family: 'Aladin', cursive;
+	text-shadow: 0 0 10px #000000;
+}
+h2 { /* "pick a princess", "enjoy your sticker"*/
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 1.25;
+	margin-bottom: .5rem;
+}
+p {
+	margin-top: 0;
+	line-height: 1.5;
+}
+a {
+	color: #293a4a;
+}
+
+a:hover {
+    background-color: #aeaeae;
+		color: #293a4a;
+    font-style: italic;
+}
+a:visited {
+	color: purple;
+}
+select {
+	margin-bottom: 1.22rem;
+}
+.subtitle { /*"stickers of all the disney princesses" */
+	color: #fff;
+	margin-bottom: 2.22rem;
+	font-size: 1.33rem;
+	font-weight: 300;
+	line-height: 1.3;
+}
+.outer-wrapper {
+	background-color: #3776ad;
+	padding: 6%;
+	padding-bottom: 92px;
+	text-align: left;
+}
+.content-wrapper {
+	display: inline-block;
+	text-align: left;
+}
+.future {
+	background-color: #d43877;
+	padding: 2%;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+
+.contactinfo {
+	background-color: #3776ad;
+	padding: 2%;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+#sticker {
+	width: 280px;
+	height: 212px;
+	position: absolute;
+	background-image: url('../princesspics/19.png'); /*default bg pic of sticker */
+	background-size: cover;
+	box-shadow: 3px 6px 20px 0 rgba(0,0,0, .5);
+	padding-top: 58px;
+}
+footer {
+	text-align: center;
+}
+footer p {
+	font-weight: 300;
+	color: #240940;
+	margin-bottom: 0;
+}
+
+@media (min-width: 400px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 470px) {
+	html {
+		font-size: 17px;
+	}
+	.outer-wrapper {
+		padding-top: 30px;
+		padding-bottom: 140px;
+	}
+	select {
+		width: 300px;
+	}
+	#sticker {
+		width: 500px;
+		height: 292px;
+		padding-top: 88px;
+	}
+	#comment {
+		font-size: 28px;
+		margin-bottom: 2px;
+	}
+	#comment2 {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 960px) {
+	html {
+		font-size: 18px;
+	}
+	.outer-wrapper {
+		padding-bottom: 40px;
+	}
+	.step {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.first.step {
+		width: 300px;
+		margin-right: 94px;
+	}
+	.second.step { /* sticker */
+		width: 406px;
+	}
+	footer {
+		padding: 0px;
+	}
+}
